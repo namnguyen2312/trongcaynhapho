@@ -1,0 +1,8 @@
+2021-05-31T22:51:03+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home/thuycanh/public_html/wp-content/plugins/mailpoet/lib/Doctrine/Driver/PDOStatement.php:88
+Stack trace:
+#0 /home/thuycanh/public_html/wp-content/plugins/mailpoet/lib/Doctrine/Driver/PDOStatement.php(88): PDOStatement->execute(NULL)
+#1 /home/thuycanh/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(2): MailPoet\Doctrine\Driver\PDOStatement->execute()
+#2 /home/thuycanh/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query/Exec/SingleSelectExecutor.php(2): MailPoetVendor\Doctrine\DBAL\Connection->executeQuery('SELECT g0_.hash...', Array, Array, NULL)
+#3 /home/thuycanh/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/orm/lib/Doctrine/ORM/Query.php(2): MailPoetVendor\Doctrine\ORM\Query\Exec\SingleSelectExecutor->execute(Object(MailPoet\Doctrine\SerializableConnection), Array, Array)
+#4 /home/thuycanh/public_html/wp- in /home/thuycanh/public_html/wp-content/plugins/mailpoet/vendor-prefixed/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 2
+

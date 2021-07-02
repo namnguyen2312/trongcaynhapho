@@ -1,0 +1,10 @@
+[31-May-2021 16:12:47 UTC] Exception caught in get_preset. Invalid preset.. Args: Array
+(
+    [0] => default-preset
+)
+..
+[31-May-2021 23:06:20 UTC] Exception caught in get_preset. Invalid preset.. Args: Array
+(
+    [0] => default-preset
+)
+..
